@@ -1,0 +1,18 @@
+### Post new highscore
+POST https://self-leaderboard.herokuapp.com/api/record
+Content-Type: application/json
+
+{
+  "score": "400",
+  "userName": "havlong"
+}
+
+### Get top 3
+GET https://self-leaderboard.herokuapp.com/api/record/3
+Accept: application/json
+
+### Get full leaderboard
+GET https://self-leaderboard.herokuapp.com/api/record
+Accept: application/json
+
+###

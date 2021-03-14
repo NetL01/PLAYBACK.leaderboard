@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GAMEBACK leaderboard</title>
+  <base href="/">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </script>
+<link rel="stylesheet" href="/frontend-static/styles.646669d58e6b74761080.css"></head>
+
+<body>
+  <gosu-root>
+    <div class="loader"></div>
+    <div class="preloader"></div>
+    <style>
+      .loader {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        box-sizing: border-box;
+        z-index: 100;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .loader:before,
+      .loader:after {
+        opacity: 0;
+        box-sizing: border-box;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 100px;
+        border: 5px solid #0062FF;
+        box-shadow: 0 0 30px #0062FF, inset 0 0 30px #0062FF;
+      }
+
+      .loader:after {
+        z-index: 1;
+        animation: gogoloader 2s infinite 1s;
+      }
+
+      .loader:before {
+        z-index: 2;
+        animation: gogoloader 2s infinite;
+      }
+
+      @keyframes gogoloader {
+        0% {
+          -webkit-transform: scale(0);
+          opacity: 0;
+        }
+
+        50% {
+          opacity: 1;
+        }
+
+        100% {
+          -webkit-transform: scale(1);
+          opacity: 0;
+        }
+      }
+
+      .preloader {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #0d1533;
+        z-index: 99;
+      }
+    </style>
+  </gosu-root>
+  <div id="fb-root"></div>
+<script src="/frontend-static/runtime-es2015.f043d1cc0dc5ae0eb4d7.js" type="module"></script><script src="/frontend-static/runtime-es5.f043d1cc0dc5ae0eb4d7.js" nomodule defer></script><script src="/frontend-static/polyfills-es5.2f49d75a69f99fc2b4dd.js" nomodule defer></script><script src="/frontend-static/polyfills-es2015.c93da6c3500b5d550964.js" type="module"></script><script src="/frontend-static/main-es2015.bc94c484a228452b637a.js" type="module"></script><script src="/frontend-static/main-es5.bc94c484a228452b637a.js" nomodule defer></script></body>
+
+</html>
