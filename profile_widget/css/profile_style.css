@@ -1,0 +1,111 @@
+@font-face {
+font-family: 'TT Norms Bold';
+src: url('TTNorms-Bold.eot');
+src: url('TTNorms-Bold.eot?#iefix') format('embedded-opentype'),
+url('TTNorms-Bold.woff') format('woff'),
+url('TTNorms-Bold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+
+li {
+  list-style-type: none;
+  color: white;
+  font-family: 'TT Norms Bold';
+}
+
+.logo {
+  margin-bottom: 5px;
+  color: white;
+  font-family: 'TT Norms Bold';
+}
+
+.menu {
+  padding: 0px;
+  margin: 5px;
+  margin-left: 0px;
+  display: flex;
+  font-family: 'TT Norms Bold';
+}
+
+.menu li {
+  margin-right: 10px;
+  font-family: 'TT Norms Bold';
+}
+
+p{font-family: 'TT Norms Bold';}
+
+body
+{
+  background: #0e1532;
+}
+
+a { color: #f0f0f0; text-decoration:none;}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-menu {
+  margin-left: 20px;
+}
+
+
+.account-uuid[_ngcontent-gosu-app-c126] {
+    padding: 20px 32px 40px;
+}
+.section[_ngcontent-gosu-app-c125] {
+    background: #0b1129;
+    border-radius: 20px;
+    margin: 0 auto 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hello_title
+{
+  color:#f0f0f0;
+  margin-left: 200px;
+  font-size: 50;
+  font-family: 'TT Norms Bold';
+}
+
+.span-responsibility
+{
+  color: green;
+  s
+  font-size: 20;
+}
+
+.span-uuid
+{
+  color: green;
+  font-family: 'TT Norms Bold';
+}
+
+.password__advice[_ngcontent-gosu-app-c127] {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 8px 0 0;
+    color: #fff;
+    max-width: 390px;
+}
+
+.email__button[_ngcontent-gosu-app-c128] {
+    width: 120px;
+    font-size: 13px;
+    line-height: 32px;
+    border: 1px solid #0062ff;
+    color: #0062ff;
+    background: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color .3s ease,color .3s ease;
+
+    .landing-button_main[_ngcontent-gosu-app-c106] {
+        background: linear-gradient(167.46deg,#0062ff -6.97%,#bf0aff 56.3%);
+        background-size: 200% 200%;
+    }
